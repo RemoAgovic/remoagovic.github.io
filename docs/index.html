@@ -91,80 +91,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -230,35 +156,6 @@ $(document).ready(function () {
 
 
 
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Remo Agovic</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="cv.html">CV</a>
-</li>
-<li>
-  <a href="publications.html">Publications</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
 <div id="header">
 
 
@@ -268,14 +165,64 @@ $(document).ready(function () {
 </div>
 
 
-<div id="about" class="section level2">
-<h2>About</h2>
-<p>I am a researcher working on [your topics].</p>
+<div style="display: flex; align-items: center; gap: 30px;">
+<div style="flex: 0 0 200px;">
+<p><img src="portrait.jpg" width="200px" style="border-radius: 8px;"></p>
+</div>
+<div id="about-me" class="section level3" style="flex: 1;">
+<h3>About me</h3>
+<p>I am a researcher working at the <strong>Wyss Academy for
+Nature</strong>, where I focus on the political economy of land use,
+environmental governance, and conflict. My work examines how
+institutions, power, and property relations shape environmental
+outcomes, with a particular emphasis on fragile and conflict-affected
+settings.</p>
+</div>
+</div>
+<hr />
+<div id="team-affiliations" class="section level2">
+<h2>Team &amp; Affiliations</h2>
+<ul>
+<li><strong>Wyss Academy for Nature</strong></li>
+<li>Working with interdisciplinary teams across political science,
+economics, and environmental science</li>
+</ul>
+<hr />
+</div>
+<div id="proficiencies" class="section level2">
+<h2>Proficiencies</h2>
+<ul>
+<li>Political economy of land use and natural resources<br />
+</li>
+<li>Conflict and environmental governance<br />
+</li>
+<li>Quantitative and qualitative research methods<br />
+</li>
+<li>Applied data analysis (R)<br />
+</li>
+<li>Academic writing and policy-oriented research</li>
+</ul>
+<hr />
+</div>
+<div id="working-papers" class="section level2">
+<h2>Working Papers</h2>
+<ul>
+<li><p><strong>Agovic, R.</strong> (Year). <em>Title of working
+paper</em>.<br />
+Status: Working paper.</p></li>
+<li><p><strong>Agovic, R.</strong> (Year). <em>Title of working
+paper</em>.<br />
+Status: Under review.</p></li>
+</ul>
+<p><em>(Links to PDFs can be added later.)</em></p>
+<hr />
 </div>
 <div id="contact" class="section level2">
 <h2>Contact</h2>
-<p><a href="mailto:remo@yourinstitution.edu"
-class="email">remo@yourinstitution.edu</a></p>
+<p>📧 <a href="mailto:your.email@wyssacademy.org"
+class="email">your.email@wyssacademy.org</a><br />
+🔗 GitHub: <a href="https://github.com/RemoAgovic"
+class="uri">https://github.com/RemoAgovic</a></p>
 </div>
 
 

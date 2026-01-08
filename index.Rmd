@@ -3,9 +3,53 @@ title: "Remo Agovic"
 output: html_document
 ---
 
-## About
+<div style="display: flex; align-items: center; gap: 30px;">
 
-I am a researcher working on [your topics].
+<div style="flex: 0 0 200px;">
+<img src="portrait.jpg" width="200px" style="border-radius: 8px;">
+</div>
+
+<div style="flex: 1;">
+
+### About me
+
+I am a researcher working at the **Wyss Academy for Nature**, where I focus on the political economy of land use, environmental governance, and conflict. My work examines how institutions, power, and property relations shape environmental outcomes, with a particular emphasis on fragile and conflict-affected settings.
+
+</div>
+</div>
+
+---
+
+## Team & Affiliations
+
+- **Wyss Academy for Nature**
+- Working with interdisciplinary teams across political science, economics, and environmental science
+
+---
+
+## Proficiencies
+
+- Political economy of land use and natural resources  
+- Conflict and environmental governance  
+- Quantitative and qualitative research methods  
+- Applied data analysis (R)  
+- Academic writing and policy-oriented research  
+
+---
+
+## Working Papers
+
+- **Agovic, R.** (Year). *Title of working paper*.  
+  Status: Working paper.
+
+- **Agovic, R.** (Year). *Title of working paper*.  
+  Status: Under review.
+
+*(Links to PDFs can be added later.)*
+
+---
 
 ## Contact
-remo@yourinstitution.edu
+
+📧 your.email@wyssacademy.org  
+🔗 GitHub: https://github.com/RemoAgovic
