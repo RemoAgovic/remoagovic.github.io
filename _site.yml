@@ -1,0 +1,16 @@
+name: "personal-site"
+output_dir: "docs"
+
+navbar:
+  title: "Remo Agovic"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: cv.html
+    - text: "Publications"
+      href: publications.html
+
+output:
+  html_document:
+    theme: flatly
