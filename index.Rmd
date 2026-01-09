@@ -50,12 +50,16 @@ output: html_document
 
 ### Background
 
-I am a PhD candidate at the Institute for Political Science and the Wyss Academy for Nature at the University of Bern. I hold a BSc in Economics from the University of Bern and an MSc in Economics from the University of Zurich. My research is grounded in political economy and focuses on environmental governance and human–environment interactions, with particular attention to community-based conservation.
+I am a PhD candidate at the Institute for Political Science and the Wyss Academy for Nature at the University of Bern. I hold a BSc in Economics from the University of Bern and an MSc in Economics from the University of Zurich. 
 
 **In my research, I focus on:**
 
-- **Fields:** political science and economics  
-- **Substantive topics:** the political economy of community-based conservation; randomized controlled trial research with forest communities; comparative research on conflict and land-use dynamics; and narrative economics  
+- **Fields:** Political Science and Economics  
+- **Substantive topics:**
+  - The political economy of community-based conservation in Brazil and South America  
+  - Community-based fire management in Viet Nam  
+  - Comparative research on conflict and land-use dynamics worldwide
+  - Narrative economics surrounding immigration stereotyping in Germany
 - **Methods:** causal inference using econometric and geospatial approaches, randomized controlled trials, survey experiments, and text-as-data methods  
 
 </div>
