@@ -42,9 +42,9 @@ output: html_document
 </style>
 
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 40px; margin-top: 30px;">
+<div class="profile-container">
 
-<div style="flex: 1;">
+<div class="profile-text">
 
 ### Background
 
@@ -52,8 +52,8 @@ I am a PhD candidate at the Institute for Political Science and the Wyss Academy
 
 </div>
 
-<div style="flex: 0 0 230px;">
-<img src="portrait.jpg" width="230px" style="border-radius: 8px;">
+<div class="profile-image">
+<img src="portrait.jpg" style="border-radius: 8px;">
 </div>
 
 </div>
@@ -76,4 +76,5 @@ I am a PhD candidate at the Institute for Political Science and the Wyss Academy
 
 remo.agovic@wyssacademy.org  
 GitHub: https://github.com/RemoAgovic
+
 
