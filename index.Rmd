@@ -48,19 +48,15 @@ output: html_document
 
 ### Background
 
-### Background
+I am a **PhD candidate** at the Institute for Political Science and the Wyss Academy for Nature at the University of Bern. I hold a BSc in Economics from the University of Bern and an MSc in Economics from the University of Zurich.
 
-I am a PhD candidate at the Institute for Political Science and the Wyss Academy for Nature at the University of Bern. I hold a BSc in Economics from the University of Bern and an MSc in Economics from the University of Zurich. 
+**My research focuses on political science and economics:**
 
-**In my research, I focus on:**
+- **Substantive areas:** the political economy of community-based conservation in South America; community-based fire management in Viet Nam; comparative research on conflict and land-use dynamics; and narrative economics surrounding immigration  
+- **Methods:** causal inference using econometric and geospatial approaches, randomized controlled trials, survey and text-based experiments  
 
-- **Fields:** Political Science and Economics  
-- **Substantive topics:**
-  - The political economy of community-based conservation in Brazil and South America  
-  - Community-based fire management in Viet Nam  
-  - Comparative research on conflict and land-use dynamics worldwide
-  - Narrative economics surrounding immigration stereotyping in Germany
-- **Methods:** causal inference using econometric and geospatial approaches, randomized controlled trials, survey experiments, and text-as-data methods  
+
+Other than that, i love playing and recording music!
 
 </div>
 
@@ -85,6 +81,8 @@ I am a PhD candidate at the Institute for Political Science and the Wyss Academy
 ---
 
 ## Contact
+
+Happy to talk!
 
 remo.agovic@wyssacademy.org  
 GitHub: https://github.com/RemoAgovic
