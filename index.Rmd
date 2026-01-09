@@ -3,6 +3,45 @@ title: "Remo Agovic"
 output: html_document
 ---
 
+<style>
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.profile-image {
+  flex: 0 0 230px;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+  }
+
+  .profile-text {
+    order: 1;
+  }
+
+  .profile-image {
+    order: 2;
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+
+  .profile-image img {
+    width: 160px;
+  }
+}
+</style>
+
+
 <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 40px; margin-top: 30px;">
 
 <div style="flex: 1;">

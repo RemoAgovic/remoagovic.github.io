@@ -165,6 +165,43 @@ pre code {
 </div>
 
 
+<style>
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.profile-image {
+  flex: 0 0 230px;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+  }
+
+  .profile-text {
+    order: 1;
+  }
+
+  .profile-image {
+    order: 2;
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+
+  .profile-image img {
+    width: 160px;
+  }
+}
+</style>
 <div
 style="display: flex; justify-content: space-between; align-items: flex-start; gap: 40px; margin-top: 30px;">
 <div id="background" class="section level3" style="flex: 1;">
@@ -173,13 +210,13 @@ style="display: flex; justify-content: space-between; align-items: flex-start; g
 Wyss Academy for Nature at the University of Bern. I hold a BSc in
 Economics from the University of Bern and an MSc in Economics from the
 University of Zurich, with a specialization in development and policy.
-My research is grounded in political science and political economy, with
-a focus on environmental governance and development. My dissertation
-examines the political economy of community-based conservation, with a
-focus on how conservation arrangements interact with political behavior
-and institutional outcomes. Methodologically, I am particularly
-interested in causal inference and apply econometric and geospatial
-methods to study human–environment interactions.</p>
+My research is grounded in political economy and development, with a
+focus on environmental governance. My dissertation examines the
+political economy of community-based conservation, with a focus on how
+conservation arrangements interact with political behavior and
+institutional outcomes. Methodologically, I am particularly interested
+in causal inference and apply econometric and geospatial methods to
+study human–environment interactions.</p>
 </div>
 <div style="flex: 0 0 230px;">
 <p><img src="portrait.jpg" width="230px" style="border-radius: 8px;"></p>
