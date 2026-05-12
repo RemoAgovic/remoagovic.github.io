@@ -39,6 +39,13 @@ output: html_document
     width: 160px;
   }
 }
+
+.note {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.85em;
+  color: #6c757d;
+}
 </style>
 
 
@@ -96,5 +103,3 @@ Happy to talk!
 
 remo.agovic@wyssacademy.org  
 GitHub: https://github.com/RemoAgovic
-
-
