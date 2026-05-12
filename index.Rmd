@@ -72,13 +72,15 @@ Other than that, i love playing and recording music!
 
 - **Agovic, R.**
   *Collective Land Formalization and Electoral Politics: Political Incorporation in Local Brazilian Elections.*
+  Dissertation paper
 
-- **Agovic, R., Nguyen, Q., Jud, S., Sposito, H.**
+- **Nguyen, Q., Agovic, R., Jud, S., Sposito, H.**
   *Community-Based Fire Monitoring and Gender Inclusion in Viet Nam.*
-  RCT experiment; two papers in preparation on barriers to collective action and on gender inclusion in community-based fire management.
+  RCT experiment; two papers in preparation on barriers to collective action and on gender inclusion in community-based fire management. Intervention stats end of early June.
 
-- **Agovic, R., Nguyen, Q., Sposito, H., Jud, S.**
-  *Preferences for Community-Based Conservation: Evidence from a Conjoint Experiment in Madagascar.*
+- **Nguyen, Q., Agovic, R., Sposito, H., Jud, S.**
+  *Preferences for Community-Based Conservation.*
+  Conjoint experiment, to be fielded end of May.
 
 - **Sposito, H., Agovic, R., Jud, S., Nguyen, Q.**
   *Armed Conflict and Land-Use Dynamics: A Global Comparative Analysis.*
