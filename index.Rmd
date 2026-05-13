@@ -11,46 +11,40 @@ output: html_document
   gap: 40px;
   margin-top: 30px;
 }
-
 .profile-text {
   flex: 1;
 }
-
 .profile-image {
   flex: 0 0 230px;
 }
-
 @media (max-width: 768px) {
   .profile-container {
     flex-direction: column;
   }
-
   .profile-text {
     order: 1;
   }
-
   .profile-image {
     order: 2;
     margin-top: 20px;
     align-self: flex-start;
   }
-
   .profile-image img {
     width: 160px;
   }
 }
-
+ul li {
+  margin-bottom: 0.8em;
+}
 .note {
   display: block;
-  margin-top: 2px;
+  margin-top: 4px;
   font-size: 0.85em;
   color: #6c757d;
 }
 </style>
 
-
 <div class="profile-container">
-
 <div class="profile-text">
 
 ### Background
@@ -62,20 +56,18 @@ I am a **PhD candidate** at the Institute for Political Science and the Wyss Aca
 - **Substantive areas:** the political economy of community-based conservation in South America; community-based fire management in Viet Nam; comparative research on conflict and land-use dynamics; and narrative economics surrounding immigration  
 - **Methods:** causal inference using econometric and geospatial approaches, randomized controlled trials, survey and text-based experiments  
 
-
 Other than that, i love playing and recording music!
 
 </div>
-
 <div class="profile-image">
 <img src="portrait.jpg" style="border-radius: 8px;">
 </div>
-
 </div>
 
 ---
 
 ## Work in Progress
+
 - **Agovic, R.**
   *Collective Land Formalization and Electoral Politics: Political Incorporation in Local Brazilian Elections.*
   <span class="note">Dissertation paper.</span>
